@@ -42,6 +42,7 @@ io.use((socket, next) => {
     }
 
 })
+
 io.on("connection", (socket)=>{
     console.log("connected");
     console.log(socket.id)
